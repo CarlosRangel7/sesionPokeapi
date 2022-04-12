@@ -1,0 +1,12 @@
+.imagenPok{
+    width: 200px;
+    padding: 2rem;
+}
+.element_list{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style: none;
+    margin: 3rem 0;
+    font-weight: bold;
+}

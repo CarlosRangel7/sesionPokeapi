@@ -1,0 +1,7 @@
+.contenedorA{
+    background-image: linear-gradient(to right,#012a4a 0%, #2a6f97 100%);
+    padding: 2rem 0;
+}
+.img{
+    width: 25%;
+}

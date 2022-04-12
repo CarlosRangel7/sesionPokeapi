@@ -1,0 +1,33 @@
+
+<div>
+   <p class="text-center fs-1 mt-5">{{pokemonDetalles.name}}</p>
+</div>
+
+<div>
+    <ul>
+        <li class="element_list">ID : {{pokemonDetalles.id}}</li>
+        <li class="element_list">Weight : {{pokemonDetalles.weight}} hectograms</li>
+        <li class="element_list">Height : {{pokemonDetalles.height}} decimeters</li>
+    </ul>
+</div>
+
+<div>
+    <table  class="d-flex justify-content-center">
+        <tbody>
+            <tr>
+                <th>Sprites</th>
+            </tr>
+            <tr>
+                <td><img class="imagenPok" [src]="pokemonDetalles.sprites.front_default" alt=""></td>
+                <td><img class="imagenPok" [src]="pokemonDetalles.sprites.back_default" alt=""></td>
+            </tr>
+            <tr>
+                <td><img class="imagenPok" [src]="pokemonDetalles.sprites.front_shiny" alt=""></td>
+                <td><img class="imagenPok" [src]="pokemonDetalles.sprites.back_shiny" alt=""></td>
+            </tr>
+        </tbody>        
+    </table>
+</div>
+
+<button class="btn btn-warning d-block m-auto" (click)="regresar()">Regresar</button>
+<br><br><br>

@@ -1,0 +1,17 @@
+h2{
+    color: #095256;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+}
+
+._error{
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+p{
+    text-align: center;
+    font-weight: 500;
+}
